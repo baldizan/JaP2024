@@ -1,0 +1,81 @@
+* {
+    color: rgb(190, 186, 186);
+    font-family: 'Raleway', sans-serif;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgba(96, 8, 8, 0.611), rgba(0, 0, 0, 0.611), rgba(41, 41, 87, 0.551));
+}
+
+.contenedor {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.icono {
+    font-size: 1.5rem;
+}
+
+.boton {
+    margin: 2em auto;
+    padding: 1em;
+    border: .1em solid grey;
+    border-radius: .5em;
+    background-color: rgba(0, 0, 0, 0.581);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform .2s ease-in-out;
+}
+
+.boton:hover {
+    transform: scale(1.02);
+    background-image: linear-gradient(rgba(239, 122, 214, 0.349), rgba(124, 58, 231, 0.437), rgba(63, 63, 160, 0.492));
+}
+
+.parteSuperior {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.botonAtras {
+    margin: 3em 2em;
+    font-size: 1.5rem;
+    align-self: flex-start;
+
+}
+
+#texto {
+    width: 80%;
+    margin: auto;
+    padding: .5em;
+    border-radius: .5em;
+    background-color: rgba(0, 0, 0, 0.31);
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    line-height: 4rem;
+}
+
+#imagen {
+    width: 30%;
+    margin: 2em;
+    padding: .5em;
+    border-radius: 50%;
+    background-color: salmon;
+}
